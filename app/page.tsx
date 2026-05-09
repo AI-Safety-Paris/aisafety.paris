@@ -1,16 +1,6 @@
-"use client";
-
-import Cal, { getCalApi } from "@calcom/embed-react";
 import Image from "next/image";
-import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => {
-    (async function () {
-      const cal = await getCalApi({ namespace: "intro-paris-ai-safety" });
-      cal("ui", { hideEventTypeDetails: false, layout: "month_view" });
-    })();
-  }, []);
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Full-width banner */}
@@ -47,16 +37,6 @@ export default function Home() {
               <p className="hidden sm:block text-lg text-white mb-4 leading-relaxed max-w-3xl drop-shadow-md">
                 AI Safety Paris is the community of people in Paris working on AI Safety, AI Governance, AI Alignment, and related fields. This page is a resource for anyone interested in working in AI Safety in Paris or meeting the community.
               </p>
-              <p className="hidden sm:block text-base text-white leading-relaxed max-w-3xl drop-shadow-md">
-                To get to know the community, the best way is to{" "}
-                <a
-                  href="#book-call"
-                  className="text-blue-300 hover:text-blue-200 hover:underline font-semibold"
-                >
-                  book a call with Lucie
-                </a>
-                , the local AI Safety community builder. She can introduce you to people and invite you to private communication groups and events.
-              </p>
             </div>
           </div>
 
@@ -67,20 +47,30 @@ export default function Home() {
           <p className="text-base text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
             AI Safety Paris is the community of people in Paris working on AI Safety, AI Governance, AI Alignment, and related fields. This page is a resource for anyone interested in working in AI Safety in Paris or meeting the community.
           </p>
-          <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-            To get to know the community, the best way is to{" "}
-            <a
-              href="#book-call"
-              className="text-blue-600 dark:text-blue-400 hover:underline font-semibold"
-            >
-              book a call with Lucie
-            </a>
-            , the local AI Safety community builder. She can introduce you to people and invite you to private communication groups and events.
-          </p>
         </div>
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <main className="space-y-16">
+          {/* Maintenance notice */}
+          <aside className="rounded-lg border border-amber-300 bg-amber-50 dark:border-amber-700 dark:bg-amber-950/40 p-5">
+            <h2 className="text-lg font-semibold text-amber-900 dark:text-amber-200 mb-2">
+              This website is in maintenance mode
+            </h2>
+            <p className="text-amber-900 dark:text-amber-100 text-sm leading-relaxed">
+              While I lived in Paris, I made myself and this website the point of contact for the AI safety community here. I'm moving away and stepping back from that role, so this site won't be kept up to date and I'm not committing to making introductions or replying to emails. You're welcome to try{" "}
+              <a
+                href="mailto:lucie.philippon@proton.me"
+                className="underline hover:no-underline font-medium"
+              >
+                lucie.philippon@proton.me
+              </a>
+              {" "}— but low chance I respond.
+            </p>
+            <p className="text-amber-900 dark:text-amber-100 text-sm leading-relaxed mt-3">
+              I'm looking for someone to take that role and own this website. If you'd like to step in, please reach out.
+            </p>
+          </aside>
+
           {/* Events */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Events</h2>
@@ -319,42 +309,7 @@ export default function Home() {
             </p>
           </section>
 
-          {/* Book a call */}
-          <section id="book-call">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Book a call with Lucie
-            </h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Hey! I'm{" "}
-              <a
-                href="https://www.linkedin.com/in/lucie-lt-philippon/"
-                className="text-blue-600 dark:text-blue-400 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Lucie
-              </a>
-              , the author of this website. I'm a former software engineer who's been working in AI policy and community building since 2023. I know most of the people in the Parisian AI Safety community, so I can make introductions and invite you to the private communication groups and private events.
-            </p>
-            <p className="text-gray-700 dark:text-gray-300 mb-6">
-              You're welcome to schedule a call with me any time! We can chat about your career plans, the community, or anything else related to AI Safety in Paris.
-            </p>
-          </section>
         </main>
-
-        {/* Calendar - Full width section */}
-        <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] pt-4 pb-12 mb-12">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="w-full h-[700px]">
-              <Cal
-                namespace="intro-paris-ai-safety"
-                calLink="lucie-philippon/intro-paris-ai-safety"
-                style={{ width: "100%", height: "100%", overflow: "scroll" }}
-                config={{ layout: "month_view" }}
-              />
-            </div>
-          </div>
-        </div>
 
         <footer className="text-center mt-12 pb-12 text-gray-600 dark:text-gray-400 text-sm space-y-2">
           <p>For feedback on this website, contact Lucie Philippon at lucie.philippon@proton.me</p>

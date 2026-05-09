@@ -10,7 +10,6 @@
     "format": "biome format --write"
   },
   "dependencies": {
-    "@calcom/embed-react": "^1.5.3",
     "@vercel/analytics": "^1.6.1",
     "next": "15.5.9",
     "react": "19.1.0",

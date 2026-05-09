@@ -2,7 +2,9 @@
 
 AI Safety Paris is the community of people in Paris working on AI Safety, AI Governance, AI Alignment, and related fields. This page is a resource for anyone interested in working in AI Safety in Paris or meeting the community.
 
-To get to know the community, the best way is to [book a call with Lucie](#book-call), the local AI Safety community builder. She can introduce you to people and invite you to private communication groups and events.
+> **This website is in maintenance mode.** While I lived in Paris, I made myself and this website the point of contact for the AI safety community here. I'm moving away and stepping back from that role, so this site won't be kept up to date and I'm not committing to making introductions or replying to emails. You're welcome to try [lucie.philippon@proton.me](mailto:lucie.philippon@proton.me) — but low chance I respond.
+>
+> I'm looking for someone to take that role and own this website. If you'd like to step in, please reach out.
 
 ## Events
 
@@ -47,14 +49,6 @@ TODO: create a public group chat
 
 - [Career path: Working in AI policy in France](https://docs.google.com/document/d/1qGnp1tc9ilRQeVHub_9VRvpUOCEJ26_VZsQRg9FDGRw/edit?tab=t.0#heading=h.3rbqh72h091y)
 - [Career path: Working in Technical AI Safety in France](https://docs.google.com/document/d/1VP26Zlp5tVpx0RYWPQdG0mCaMYRUF4p-ZFgt_FA9ows/edit?tab=t.0#heading=h.tg542uvqyvn2)
-
-## Book a call with Lucie
-
-Hey! I'm [Lucie](https://www.linkedin.com/in/lucie-lt-philippon/), a former software engineer who's been working in AI policy and community building since 2023. I know most of the people in the Parisian AI Safety community, so I can make introductions and invite you to the private communication groups and private events.
-
-You're welcome to schedule a call with me any time! We can chat about your career plans, the community, or anything else related to AI Safety in Paris.
-
-[Cal.com widget](https://cal.com/lucie-philippon/intro-paris-ai-safety)
 
 ---
 
