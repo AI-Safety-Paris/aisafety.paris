@@ -4,11 +4,13 @@ The website for the **AI Safety Paris** community — a resource for anyone inte
 
 Live site: [aisafety.paris](https://aisafety.paris)
 
-## 🙋 This project is looking for a maintainer
+## 🙋 Looking for a new maintainer to replace Lucie
 
-The current maintainer (Lucie Philippon) is moving away from Paris and stepping back from the point-of-contact role for the local AI safety community. The site is in **maintenance mode** and will not be kept up to date until someone takes it over.
+I'm Lucie Philippon, the current maintainer. I'm moving away from Paris and stepping back from the point-of-contact role for the local AI safety community, so the site is in **maintenance mode** and won't be kept up to date until someone takes it over.
 
-If you'd like to step in — to own this website, keep its content current, and serve as a contact for people interested in AI Safety in Paris — please reach out to **`lucie.philippon@proton.me`**.
+I'm looking for someone to replace me — to own this website, keep its content current, and serve as a contact for people interested in AI Safety in Paris.
+
+If that could be you, contact me at **`lucie.philippon@proton.me`**.
 
 ## What's on the site
 
@@ -61,7 +63,7 @@ next.config.ts    # Next.js config
 
 Issues and pull requests are welcome — especially content updates (new events, orgs, resources) and fixes for stale links. For larger changes, open an issue first to discuss.
 
-**The project is actively looking for a new maintainer.** If you're interested, see the section above or email `lucie.philippon@proton.me`.
+**Lucie is looking for someone to replace her as maintainer.** If you're interested, see the section above or email her at `lucie.philippon@proton.me`.
 
 ## License
 
