@@ -39,26 +39,6 @@ Then open [http://localhost:3000](http://localhost:3000).
 
 The home page lives in [`app/page.tsx`](app/page.tsx) and the root layout in [`app/layout.tsx`](app/layout.tsx). Edits hot-reload.
 
-## Scripts
-
-| Command | What it does |
-| --- | --- |
-| `npm run dev` | Start the dev server with Turbopack |
-| `npm run build` | Production build (Turbopack) |
-| `npm start` | Run the production build |
-| `npm run lint` | Biome check (lint + import sort) |
-| `npm run format` | Biome format with `--write` |
-
-## Project layout
-
-```
-app/              # Next.js App Router pages and layout
-public/           # Static assets (logos, banner image)
-content.md       # Source content for the site copy
-biome.json        # Biome lint/format config
-next.config.ts    # Next.js config
-```
-
 ## Contributing
 
 Issues and pull requests are welcome — especially content updates (new events, orgs, resources) and fixes for stale links. For larger changes, open an issue first to discuss.
