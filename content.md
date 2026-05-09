@@ -2,6 +2,8 @@
 
 AI Safety Paris is the community of people in Paris working on AI Safety, AI Governance, AI Alignment, and related fields. This page is a resource for anyone interested in working in AI Safety in Paris or meeting the community.
 
+> **This website is in maintenance mode.** I'm looking for someone to take ownership of it. If you're interested, contact me at [lucie.philippon@proton.me](mailto:lucie.philippon@proton.me).
+
 ## Events
 
 ### Public events are announced in:

@@ -51,6 +51,23 @@ export default function Home() {
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <main className="space-y-16">
+          {/* Maintenance notice */}
+          <aside className="rounded-lg border border-amber-300 bg-amber-50 dark:border-amber-700 dark:bg-amber-950/40 p-5">
+            <h2 className="text-lg font-semibold text-amber-900 dark:text-amber-200 mb-2">
+              This website is in maintenance mode
+            </h2>
+            <p className="text-amber-900 dark:text-amber-100 text-sm leading-relaxed">
+              I'm looking for someone to take ownership of it. If you're interested, contact me at{" "}
+              <a
+                href="mailto:lucie.philippon@proton.me"
+                className="underline hover:no-underline font-medium"
+              >
+                lucie.philippon@proton.me
+              </a>
+              .
+            </p>
+          </aside>
+
           {/* Events */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Events</h2>
