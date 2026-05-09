@@ -1,12 +1,12 @@
 # aisafety.paris
 
-The website for the **AI Safety Paris** community — a resource for anyone interested in working on AI Safety, AI Governance, or AI Alignment in Paris, or in meeting the local community.
+I'm Lucie, and this is the repo for the **AI Safety Paris** website — a resource I built for anyone interested in working on AI Safety, AI Governance, or AI Alignment in Paris, or in meeting the local community.
 
 Live site: [aisafety.paris](https://aisafety.paris)
 
-## 🙋 Looking for a new maintainer to replace Lucie
+## 🙋 Looking for someone to replace me (Lucie)
 
-I'm Lucie Philippon, the current maintainer. I'm moving away from Paris and stepping back from the point-of-contact role for the local AI safety community, so the site is in **maintenance mode** and won't be kept up to date until someone takes it over.
+I'm moving away from Paris and stepping back from the point-of-contact role for the local AI safety community. The site is in **maintenance mode** and I won't be keeping it up to date until someone takes it over.
 
 I'm looking for someone to replace me — to own this website, keep its content current, and serve as a contact for people interested in AI Safety in Paris.
 
@@ -41,9 +41,9 @@ The home page lives in [`app/page.tsx`](app/page.tsx) and the root layout in [`a
 
 ## Contributing
 
-Issues and pull requests are welcome — especially content updates (new events, orgs, resources) and fixes for stale links. For larger changes, open an issue first to discuss.
+I welcome issues and pull requests — especially content updates (new events, orgs, resources) and fixes for stale links. For larger changes, please open an issue first so we can discuss.
 
-**Lucie is looking for someone to replace her as maintainer.** If you're interested, see the section above or email her at `lucie.philippon@proton.me`.
+And again: **I'm looking for someone to replace me as maintainer.** If you're interested, see the section above or email me at `lucie.philippon@proton.me`.
 
 ## License
 
