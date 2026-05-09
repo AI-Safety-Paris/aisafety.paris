@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# aisafety.paris
 
-## Getting Started
+The website for the **AI Safety Paris** community — a resource for anyone interested in working on AI Safety, AI Governance, or AI Alignment in Paris, or in meeting the local community.
 
-First, run the development server:
+Live site: [aisafety.paris](https://aisafety.paris)
+
+## 🙋 This project is looking for a maintainer
+
+The current maintainer (Lucie Philippon) is moving away from Paris and stepping back from the point-of-contact role for the local AI safety community. The site is in **maintenance mode** and will not be kept up to date until someone takes it over.
+
+If you'd like to step in — to own this website, keep its content current, and serve as a contact for people interested in AI Safety in Paris — please reach out to **`lucie.philippon@proton.me`**.
+
+## What's on the site
+
+- Public events calendars and community meetups
+- AI Safety organizations based in Paris (CeSIA, Safer AI, ML4Good, Pause IA, Foreview)
+- The shared Paris AI Safety office space
+- Communication channels (Slack, Discord)
+- Career-path resources for technical AI safety and AI policy in France
+
+## Tech stack
+
+- [Next.js 15](https://nextjs.org) (App Router, Turbopack)
+- [React 19](https://react.dev) + TypeScript (strict)
+- [Tailwind CSS 4](https://tailwindcss.com)
+- [Biome](https://biomejs.dev) for linting and formatting
+- [Vercel Analytics](https://vercel.com/docs/analytics)
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The home page lives in [`app/page.tsx`](app/page.tsx) and the root layout in [`app/layout.tsx`](app/layout.tsx). Edits hot-reload.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+| Command | What it does |
+| --- | --- |
+| `npm run dev` | Start the dev server with Turbopack |
+| `npm run build` | Production build (Turbopack) |
+| `npm start` | Run the production build |
+| `npm run lint` | Biome check (lint + import sort) |
+| `npm run format` | Biome format with `--write` |
 
-To learn more about Next.js, take a look at the following resources:
+## Project layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+app/              # Next.js App Router pages and layout
+public/           # Static assets (logos, banner image)
+content.md       # Source content for the site copy
+biome.json        # Biome lint/format config
+next.config.ts    # Next.js config
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Issues and pull requests are welcome — especially content updates (new events, orgs, resources) and fixes for stale links. For larger changes, open an issue first to discuss.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**The project is actively looking for a new maintainer.** If you're interested, see the section above or email `lucie.philippon@proton.me`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+[MIT](LICENSE) © 2025 Lucie Philippon
