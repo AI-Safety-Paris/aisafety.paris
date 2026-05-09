@@ -57,14 +57,17 @@ export default function Home() {
               This website is in maintenance mode
             </h2>
             <p className="text-amber-900 dark:text-amber-100 text-sm leading-relaxed">
-              I'm looking for someone to take ownership of it. If you're interested, contact me at{" "}
+              While I lived in Paris, I made myself and this website the point of contact for the AI safety community here. I'm moving away and stepping back from that role, so this site won't be kept up to date and I'm not committing to making introductions or replying to emails. You're welcome to try{" "}
               <a
                 href="mailto:lucie.philippon@proton.me"
                 className="underline hover:no-underline font-medium"
               >
                 lucie.philippon@proton.me
               </a>
-              .
+              {" "}— but low chance I respond.
+            </p>
+            <p className="text-amber-900 dark:text-amber-100 text-sm leading-relaxed mt-3">
+              I'm looking for someone to take that role and own this website. If you'd like to step in, please reach out.
             </p>
           </aside>
 
