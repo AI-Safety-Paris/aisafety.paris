@@ -212,15 +212,7 @@ export default function Home() {
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mt-2">
-              If you want to join us, be it for a day, a week, or long term, you can feel this {" "}
-              <a
-                className="text-blue-600 dark:text-blue-400 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfJx_jjo2kwsE_OkpvElE0_OsL-R0QUVlciDhqoWQrU1LbIVA/viewform?usp=sharing&ouid=105437227640522818644">
-                  expression of interest
-                </a>
-                . We'll get back to you within a few days.
+              If you want to join us, be it for a day, a week, or long term, get in touch.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mt-2">
