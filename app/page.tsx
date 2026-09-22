@@ -52,12 +52,38 @@ export default function Home() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <main className="space-y-16">
 
-          {/* Events */}
+                    {/* Events */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Events</h2>
 
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              Public events are announced in:
+            <p className="my-2">
+              See the{" "}
+              <a
+                href="https://lu.ma/ais-paris"
+                className="text-blue-600 dark:text-blue-400 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                AI Safety Paris Luma calendar
+              </a>{" "}
+              for upcoming events.
+            </p>
+
+            <div className="my-4 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+              <iframe
+                src="https://lu.ma/embed/calendar/ais-paris/events"
+                width="100%"
+                height="300"
+                frameBorder="0"
+                style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
+                allowFullScreen
+                aria-hidden="false"
+                tabIndex={0}
+              ></iframe>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 mt-8">
+              EA events
             </h3>
             <ul className="space-y-2 text-gray-700 dark:text-gray-300 mb-6">
               <li>
@@ -79,44 +105,12 @@ export default function Home() {
                 >
                   AE Paris Calendar
                 </a>
-                <br />
-                <span className="text-sm text-gray-600 dark:text-gray-400 ml-4">
+                <span className="block text-sm text-gray-600 dark:text-gray-400 ml-4 mt-1">
                   Not all focused on AI Safety, but people in AI Safety regularly go there.
                   I especially recommend the monthly English-speaking meetup
                 </span>
               </li>
             </ul>
-
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              Notable upcoming events:
-            </h3>
-            {/* <ul className="space-y-2 text-gray-700 dark:text-gray-300 mb-4">
-              <li>
-                •{" "}
-                <a
-                  href="https://luma.com/05qscjh1"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Automnales d'Altruisme Efficace France
-                </a>{" "}
-                Oct 31st to Nov 2nd 2025, a retreat that usually has many local AI researchers.
-              </li>
-            </ul> */}
-
-            <div className="my-4 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
-              <iframe
-                src="https://lu.ma/embed/calendar/ais-paris/events"
-                width="100%"
-                height="450"
-                frameBorder="0"
-                style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
-                allowFullScreen
-                aria-hidden="false"
-                tabIndex={0}
-              ></iframe>
-            </div>
 
             <p className="text-gray-700 dark:text-gray-300 text-sm italic">
               There are lots of private ad-hoc event happening in the AI Safety community. Contact
@@ -124,7 +118,7 @@ export default function Home() {
             </p>
           </section>
 
-          {/* AI Safety Organizations */}
+{/* AI Safety Organizations */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">AI Safety Organizations</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-8">
@@ -229,6 +223,17 @@ export default function Home() {
                   Sûreté de l'IA Discord server
                 </a>
                 , managed by CeSIA
+              </li>
+              <li>
+                • The{" "}
+                <a
+                  href="https://discord.gg/vyXGd7AeGc"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pause IA Discord server
+                </a>
               </li>
             </ul>
             <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">
