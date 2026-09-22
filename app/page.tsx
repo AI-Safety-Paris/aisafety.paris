@@ -51,25 +51,6 @@ export default function Home() {
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <main className="space-y-16">
-          {/* Maintenance notice */}
-          <aside className="rounded-lg border border-amber-300 bg-amber-50 dark:border-amber-700 dark:bg-amber-950/40 p-5">
-            <h2 className="text-lg font-semibold text-amber-900 dark:text-amber-200 mb-2">
-              This website is in maintenance mode
-            </h2>
-            <p className="text-amber-900 dark:text-amber-100 text-sm leading-relaxed">
-              While I lived in Paris, I made myself and this website the point of contact for the AI safety community here. I'm moving away and stepping back from that role, so this site won't be kept up to date and I'm not committing to making introductions or replying to emails. You're welcome to try{" "}
-              <a
-                href="mailto:lucie.philippon@proton.me"
-                className="underline hover:no-underline font-medium"
-              >
-                lucie.philippon@proton.me
-              </a>
-              {" "}— but low chance I respond.
-            </p>
-            <p className="text-amber-900 dark:text-amber-100 text-sm leading-relaxed mt-3">
-              I'm looking for someone to take that role and own this website. If you'd like to step in, please reach out.
-            </p>
-          </aside>
 
           {/* Events */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
@@ -146,11 +127,22 @@ export default function Home() {
               </li>
             </ul> */}
 
-            <p className="my-2">None currently scheduled.</p>
+            <p className="my-2">
+              See the{" "}
+              <a
+                href="https://lu.ma/ais-paris"
+                className="text-blue-600 dark:text-blue-400 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                AI Safety Paris Luma calendar
+              </a>{" "}
+              for upcoming events.
+            </p>
 
             <p className="text-gray-700 dark:text-gray-300 text-sm italic">
               There are lots of private ad-hoc event happening in the AI Safety community. Contact
-              Lucie directly for more info.
+              Maxime directly for more info.
             </p>
           </section>
 
@@ -216,12 +208,12 @@ export default function Home() {
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mt-2">
-              For more information, contact Lucie at{" "}
+              For more information, contact Maxime at{" "}
               <a
-                href="mailto:lucie.philippon@proton.me"
+                href="mailto:maxime.galpin@gmail.com"
                 className="text-blue-600 dark:text-blue-400 hover:underline"
               >
-                lucie.philippon@proton.me
+                maxime.galpin@gmail.com
               </a>
             </p>
           </section>
@@ -297,14 +289,14 @@ export default function Home() {
               </li>
             </ul>
             <p className="text-sm text-gray-600 dark:text-gray-400 italic mt-2">
-              Works in progress. Authored by Lucie
+              Works in progress. Authored by Maxime
             </p>
           </section>
 
         </main>
 
         <footer className="text-center mt-12 pb-12 text-gray-600 dark:text-gray-400 text-sm space-y-2">
-          <p>For feedback on this website, contact Lucie Philippon at lucie.philippon@proton.me</p>
+          <p>For feedback on this website, contact Maxime Galpin at maxime.galpin@gmail.com</p>
           <p>
             <a
               href="https://docs.google.com/document/d/1pudXgEO4gQ_OvGl_8luk3sR2nS0VEclmfSpUDKXYUIE/edit?tab=t.0"
