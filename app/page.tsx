@@ -85,28 +85,6 @@ export default function Home() {
                   I especially recommend the monthly English-speaking meetup
                 </span>
               </li>
-              <li>
-                •{" "}
-                <a
-                  href="https://lu.ma/CeSIA"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Centre pour la Sécurité de l'IA · Events Calendar
-                </a>
-              </li>
-              <li>
-                • The{" "}
-                <a
-                  href="https://discord.gg/KjZHTyGWjQ"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Sûreté de l'IA Discord server
-                </a>
-              </li>
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
@@ -127,18 +105,18 @@ export default function Home() {
               </li>
             </ul> */}
 
-            <p className="my-2">
-              See the{" "}
-              <a
-                href="https://lu.ma/ais-paris"
-                className="text-blue-600 dark:text-blue-400 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                AI Safety Paris Luma calendar
-              </a>{" "}
-              for upcoming events.
-            </p>
+            <div className="my-4 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+              <iframe
+                src="https://lu.ma/embed/calendar/ais-paris/events"
+                width="100%"
+                height="450"
+                frameBorder="0"
+                style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
+                allowFullScreen
+                aria-hidden="false"
+                tabIndex={0}
+              ></iframe>
+            </div>
 
             <p className="text-gray-700 dark:text-gray-300 text-sm italic">
               There are lots of private ad-hoc event happening in the AI Safety community. Contact
@@ -157,7 +135,7 @@ export default function Home() {
                 href="https://www.securite-ia.fr/en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center hover:opacity-75 transition-opacity"
+                className="flex items-center justify-center bg-white rounded-lg p-3 hover:opacity-75 transition-opacity"
               >
                 <Image src="/cesia-logo.svg" alt="Centre pour la Sécurité de l'IA" width={120} height={40} className="h-10 w-auto" />
               </a>
@@ -165,7 +143,7 @@ export default function Home() {
                 href="https://www.safer-ai.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center hover:opacity-75 transition-opacity"
+                className="flex items-center justify-center bg-white rounded-lg p-3 hover:opacity-75 transition-opacity"
               >
                 <Image src="/saferai-logo.svg" alt="Safer AI" width={120} height={40} className="h-10 w-auto" />
               </a>
@@ -173,7 +151,7 @@ export default function Home() {
                 href="https://www.ml4good.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center hover:opacity-75 transition-opacity"
+                className="flex items-center justify-center bg-white rounded-lg p-3 hover:opacity-75 transition-opacity"
               >
                 <Image src="/ml4good_logo.png" alt="ML4Good" width={120} height={40} className="h-10 w-auto" />
               </a>
@@ -181,7 +159,7 @@ export default function Home() {
                 href="https://pauseia.fr/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center hover:opacity-75 transition-opacity"
+                className="flex items-center justify-center bg-white rounded-lg p-3 hover:opacity-75 transition-opacity"
               >
                 <Image src="/pauseia-logo-dark.svg" alt="Pause IA" width={120} height={40} className="h-10 w-auto" />
               </a>
@@ -189,7 +167,7 @@ export default function Home() {
                 href="https://foreview.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center hover:opacity-75 transition-opacity"
+                className="flex items-center justify-center bg-white rounded-lg p-3 hover:opacity-75 transition-opacity"
               >
                 <Image src="/foreview.svg" alt="Foreview" width={120} height={40} className="h-10 w-auto" />
               </a>
@@ -221,7 +199,7 @@ export default function Home() {
           {/* Communication */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Communication
+              Community Channels
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               Most of the communication in the community happens by private chats, although there
@@ -289,7 +267,7 @@ export default function Home() {
               </li>
             </ul>
             <p className="text-sm text-gray-600 dark:text-gray-400 italic mt-2">
-              Works in progress. Authored by Maxime
+              Works in progress. Authored by Lucie Philippon
             </p>
           </section>
 
