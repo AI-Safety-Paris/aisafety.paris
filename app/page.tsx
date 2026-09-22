@@ -52,7 +52,7 @@ export default function Home() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <main className="space-y-16">
 
-                    {/* Events */}
+          {/* Events */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Events</h2>
 
@@ -118,7 +118,7 @@ export default function Home() {
             </p>
           </section>
 
-{/* AI Safety Organizations */}
+          {/* AI Safety Organizations */}
           <section className="pb-12 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">AI Safety Organizations</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-8">
