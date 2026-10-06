@@ -71,9 +71,9 @@ export default function Home() {
 
             <div className="my-4 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
               <iframe
-                src="https://lu.ma/embed/calendar/ais-paris/events"
+                src="https://luma.com/embed/calendar/cal-DJX8mCnTLSmdLPP/events"
                 width="100%"
-                height="300"
+                height="450"
                 frameBorder="0"
                 style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
                 allowFullScreen
